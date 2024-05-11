@@ -127,6 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayNum10807.cpp" />
+    <ClCompile Include="ArrayNum10808.cpp" />
+    <ClCompile Include="ArrayNum13300.cpp" />
     <ClCompile Include="ArrayNum3273.cpp" />
   </ItemGroup>
   <ItemGroup>
