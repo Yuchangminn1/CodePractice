@@ -129,8 +129,13 @@
   <ItemGroup>
     <ClCompile Include="ArrayNum10807.cpp" />
     <ClCompile Include="ArrayNum10808.cpp" />
+    <ClCompile Include="ArrayNum11328.cpp" />
     <ClCompile Include="ArrayNum13300.cpp" />
+    <ClCompile Include="ArrayNum1919.cpp" />
     <ClCompile Include="ArrayNum3273.cpp" />
+    <ClCompile Include="LinkedListNum1158.cpp" />
+    <ClCompile Include="LinkedListNum1406.cpp" />
+    <ClCompile Include="LinkedListNum5397.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMIn.h" />

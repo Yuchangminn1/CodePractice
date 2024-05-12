@@ -13,19 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Array">
+      <UniqueIdentifier>{33374ad7-b61a-47cc-9d95-cb9b654b30a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\LinkedList">
+      <UniqueIdentifier>{4f9afa47-0814-45a8-8af8-88bbd31a1372}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayNum3273.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="ArrayNum1919.cpp">
+      <Filter>소스 파일\Array</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayNum10808.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="ArrayNum3273.cpp">
+      <Filter>소스 파일\Array</Filter>
     </ClCompile>
     <ClCompile Include="ArrayNum10807.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayNum10808.cpp">
+      <Filter>소스 파일\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayNum11328.cpp">
+      <Filter>소스 파일\Array</Filter>
     </ClCompile>
     <ClCompile Include="ArrayNum13300.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListNum1158.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListNum1406.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListNum5397.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

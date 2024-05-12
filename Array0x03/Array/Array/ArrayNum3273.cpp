@@ -8,7 +8,7 @@ namespace Num3273
 	void Solve2();
 	void CMFINDING(vector<int> QQQ, int left, int right, int goal);
 	void CMQuickSort(vector<int>* QQQ, int l, int r);
-	int Partition1(vector<int>* QQQ, int l, int r);
+	int Partition1(vector<int>* QQQ, int l, int r); 
 
 	int Partition1(vector<int>* QQQ, int l, int r)
 	{

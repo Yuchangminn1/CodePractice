@@ -44,14 +44,14 @@ namespace Num10807
 
 }
 
-int main()
-{
-
-
-	Num10807::Solve1();
-
-
-
-
-	return 0;
-}
+//int main()
+//{
+//
+//
+//	Num10807::Solve1();
+//
+//
+//
+//
+//	return 0;
+//}
