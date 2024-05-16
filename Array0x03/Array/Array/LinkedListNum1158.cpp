@@ -13,7 +13,7 @@ namespace Num1158
 
 		Node(int data) : data(data), next(nullptr) {}
 	};
-
+	//여러번 생성하는 값일 경우 소멸자 필요 
 	class CMLinekedList
 	{
 	private:

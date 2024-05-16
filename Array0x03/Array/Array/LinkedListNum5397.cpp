@@ -19,6 +19,13 @@ namespace Num5397
 	class CMLinekedList
 	{
 	private:
+		//문제점 0 int 로 커서를 해서 찾게 했는데 시간초과남  -> head tail만들고 양방향 리스트로 만들었는데 구조가 너무 복잡함 
+		//문제점 1 . 헤드 데이터를 널로 설정했더니 그걸 출력해서 문제가 틀렸었음 
+		//문제점 2 . 이프문을 잘못 설정해서 헤드를 지워버림 -> 널포인터 에러 
+		//문제점 리스트 삭제시 소멸자를 사용하지 않아서 할당된 메모리가 지워지지 않음 
+		//소멸자 사용 후 약 8만KB  약80MB  -> 2만KB 약 20MB
+
+
 		Node* head;
 		Node* cursor;
 
@@ -148,7 +155,16 @@ namespace Num5397
 
 					cursor = deleteNode->prev;
 				}
+				delete(deleteNode);
 				//cout << "커서 = " << cursor->data << "\n";
+			}
+		}
+		~CMLinekedList() {
+			Node* current = head;
+			while (current != nullptr) {
+				Node* temp = current;
+				current = current->next;
+				delete temp;
 			}
 		}
 	};
@@ -158,6 +174,7 @@ namespace Num5397
 		int testNum = 0;
 		string inputString = "";
 		cin >> testNum;
+
 		for (int i = 0; i < testNum; i++)
 		{
 			CMLinekedList list;
@@ -185,13 +202,12 @@ namespace Num5397
 			}
 			list.PrintList();
 			cout << "\n";
-			//delete(&list);
 		}
 	}
 }
-
-int main()
-{
-	Num5397::Solve1();
-	return 0;
-}
+//
+//int main()
+//{
+//	Num5397::Solve1();
+//	return 0;
+//}
