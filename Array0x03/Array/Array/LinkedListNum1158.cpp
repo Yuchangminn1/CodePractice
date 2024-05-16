@@ -153,8 +153,8 @@ namespace Num1158
 	}
 }
 
-int main()
-{
-	Num1158::Solve1();
-	return 0;
-}
+//int main()
+//{
+//	Num1158::Solve1();
+//	return 0;
+//}
