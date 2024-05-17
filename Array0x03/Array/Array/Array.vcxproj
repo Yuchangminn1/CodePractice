@@ -136,6 +136,7 @@
     <ClCompile Include="LinkedListNum1158.cpp" />
     <ClCompile Include="LinkedListNum1406.cpp" />
     <ClCompile Include="LinkedListNum5397.cpp" />
+    <ClCompile Include="StackNum1874.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMIn.h" />

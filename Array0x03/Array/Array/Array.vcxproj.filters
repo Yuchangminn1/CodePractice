@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\LinkedList">
       <UniqueIdentifier>{4f9afa47-0814-45a8-8af8-88bbd31a1372}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{1b6f05cb-7d68-4734-9d09-ac61c36b04a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayNum1919.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="LinkedListNum5397.cpp">
       <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="StackNum1874.cpp">
+      <Filter>소스 파일\Stack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

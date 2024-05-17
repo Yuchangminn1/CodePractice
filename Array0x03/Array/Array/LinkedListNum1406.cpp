@@ -195,8 +195,8 @@ namespace Num1406
 	}
 }
 
-int main()
-{
-	Num1406::Solve1();
-	return 0;
-}
+//int main()
+//{
+//	Num1406::Solve1();
+//	return 0;
+//}
