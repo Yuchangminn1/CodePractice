@@ -84,8 +84,8 @@ namespace Num1874
 
 }
 
-int main()
-{
-	Num1874::Solve1();
-	return 0;
-}
+//int main()
+//{
+//	Num1874::Solve1();
+//	return 0;
+//}
